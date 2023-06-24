@@ -1,0 +1,30 @@
+.card {
+    background-color: aliceblue;
+    width: 40%;
+    /* height: 350px; */
+    border: 10px solid rgb(76, 9, 9);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.card-color {
+    text-align: center;
+    color: mediumturquoise;
+}
+
+.pra {
+    text-align: center;
+    color: red;
+}
+
+a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

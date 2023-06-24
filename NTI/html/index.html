@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Html session 2</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Form info</legend>
+        <form autocomplete="off" action="about.html" target="_blank">
+            <label>firest name </label>
+            <input type="text" name="" required minlength="5" maxlength="10"><br>
+            <label for="">last name</label>
+            <input type="text" name=""><br>
+            <label for="">email</label>
+            <input type="email" name=""><br>
+            <input type="text" disabled value="naser city" name="address">
+            <input type="text" value="naser city" readonly namme="addres2">
+            <input type="text" placeholder="enter your address"><br>
+            <input type="password">
+
+            <label>Gender</label>
+            <input type="radio" checked value="mail" name="Gender">male
+            <input type="radio" value="female" name="Gender"><span>female</span> <br>
+
+
+            <input type="checkbox" name="trak1" value="1"> <span> Web Design</span>
+            <input type="checkbox" name="trak2" value="2" checked> <span> Web Develope</span>
+            <input type="checkbox" name="trak3" value="3"> <span> Graghics</span><br>
+            <!-- <label> coureses</label> -->
+            <select name="course" multiple>
+                <datalist>
+                    <option disabled selected> choose course </option>
+                    <option>course 1</option>
+                    <option>course 2</option>
+                    <option>course 3</option>
+                </datalist>
+            </select>
+            <textarea placeholder="enter your notes" cols="30" rows="10"></textarea><br>
+            <input type="file" name="Choose files"><br>
+            <label> Numbers</label>
+            <input type="number">
+            <label>Id card</label>
+            <!-- search -->
+            <input type="text" pattern="[A-Za-z]{3}"> <br>
+            <label>Birth Day</label>
+            <input type="date" name="Birth Day"><br>
+            <input type="month" name="month"><br>
+            <input type="datetime-local" name=""><br>
+            <input type="time" name=""><br>
+            <input type="color" name=""><br>
+            <input type="range" name="" step="50" min="0" max="200"><br>
+
+
+
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="register">
+            <input type="reset" value="cleer">
+            <button>submit</button><br>
+        </form>
+    </fieldset>
+
+</body>
+
+</html>
